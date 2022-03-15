@@ -1,10 +1,18 @@
+import java.util.PrimitiveIterator;
+
 public class Professor extends Person{
-    String prof_name;
+    private String prof_name;
 
     Professor(String name){
 
         prof_name = name;
 
+    }
+    public void setStd_name(String prof_name){
+        this.prof_name = prof_name;
+    }
+    public String getStd_name(){
+        return prof_name;
     }
 
     void teachs(){
