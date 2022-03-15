@@ -1,4 +1,4 @@
-public class Student {
+public class Student extends Person{
     String std_name;
 
     Student(String name){
@@ -6,7 +6,7 @@ public class Student {
     }
 
     void learns(){
-
+        System.out.println("std" +std_name+ "is learning now");
     }
 
 }
