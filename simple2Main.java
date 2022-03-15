@@ -8,6 +8,7 @@ public class simple2Main {
         p1 = new Professor("Ensar gül");
         p1.setCountry("Turkey");
         p1.getCountry();
+
         p1.ShowCountry();
         p1.teachs();
 

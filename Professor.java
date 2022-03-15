@@ -4,6 +4,7 @@ public class Professor extends Person{
     Professor(String name){
 
         prof_name = name;
+
     }
 
     void teachs(){

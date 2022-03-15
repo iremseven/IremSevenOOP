@@ -1,9 +1,10 @@
 public class Student extends Person{
     String std_name;
 
-    Student(String name){
+    Student(String name) {
 
         std_name = name;
+
     }
 
     void learns(){

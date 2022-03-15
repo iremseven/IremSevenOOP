@@ -2,6 +2,7 @@ public class Person {
     private String country;
     Person(String CNT){
         country = CNT;
+
     }
 
     public Person(){
