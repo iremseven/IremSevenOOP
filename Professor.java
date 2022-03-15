@@ -9,7 +9,7 @@ public class Professor extends Person{
 
     void teachs(){
 
-        System.out.println("prof" +prof_name+ "is teaching now");
+        System.out.println("prof" + prof_name+ "is teaching now");
     }
 
 }
