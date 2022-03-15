@@ -5,6 +5,7 @@ public class Student extends Person{
 
         std_name = name;
 
+
     }
 
     void learns(){
